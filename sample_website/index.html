@@ -1,0 +1,166 @@
+<!DOCTYPE html> <!-- Basic structure of an HTML file -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--three different meta tags that work for old, new, and modern hand held devices-->
+    <title>Home Goods Store</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- This links CSS file to the HTML file.-->
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet"> <!-- This links CSS file to the HTML file.-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Lets HTML access star icons to use under products-->
+</head>
+<body>
+
+    <div class="container"> <!-- Uses a specifc class allows CSS to access the elements and change the style accordingly-->
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"> <!-- Assigns a hyperlink to the logo. It takes user back to home page-->
+                <img src="img/logo.png" alt="Home" width="175px"> <!-- The file path of the logo image and the size needed.-->
+                </a>
+            </div>
+            <nav> <!--The nav element represents a section of a page that links to other pages or to parts within the page: a section with navigation links.-->
+                <ul> <!-- The ul element represents an unordered list of items-->
+                    <li><a href="index.html">Home</a></li> <!-- Contains a URL to another page that the hyperlink points to-->
+                    <li><a href="furniture.html">Furniture</a></li>
+                    <li><a href="decor.html">Decor</a></li>
+                    <li><a href="kitchen.html">Kitchenware</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+            <img src="img/cart-icon.png" width="30px" height="30px">
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-2"> <!-- Class that divides section into two columns-->
+                <h1>Browse The Latest Deals</h1> 
+                <p>While Stocks Last. Ts & Cs Apply.</p>
+                <a href="deals.html" class="btn">See Now</a> <!-- Button has a hyperlink assigned to it-->
+            </div>
+            <div class="col-2">
+                <img src="img/homepage-sofa.jpg">
+            </div>
+        </div>
+    </div>
+   
+    <!-- featured categories section-->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3"> <!-- Class that divides section into two columns-->
+                        <img src="img/bed.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="img/wall-art-featured.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="img/pan.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- featured products section-->
+        <div class="small-container">
+            <h2>Featured Products</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/table1.jpg">
+                    <h4>Wooden Table</h4> 
+                    <p>R1999.99</p>
+                    <p> <!-- Span element used with class to insert star icons under product. Checked represents one full star  -->
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                </div>
+                <div class="col-3">
+                    <img src="img/cutting-board.jpg">
+                    <h4>Cutting Board</h4>
+                    <p>R149.99</p>
+                    <p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                </div>
+                <div class="col-3">
+                    <img src="img/rug.jpg">
+                    <h4>Rug</h4>
+                    <p>R649.99</p>
+                    <p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    <!--Brands-->   
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3"> <!--Select brands that work with Home Goods have their images attached and hyperlinks attached to images-->
+                    <a href="https://russellhobbs.co.za">
+                    <img src="img/logo1.png">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="https://tupperware.co.za">
+                    <img src="img/logo2.png">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="https://smeg.com/za">
+                    <img src="img/logo3.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row"> <!--Footer section is placed at bottom of page and divided into 4 columns with relevant info about Home Goods-->
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Get Our App for iOS and Android.</p>
+                    <div class="app-logo">
+                        <img src="img/google-play.png">
+                        <img src="img/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="">
+                    <p>We Aim to Provide home goods of the highest quality.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Poilcy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>TikTok</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
